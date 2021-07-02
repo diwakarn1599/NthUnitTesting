@@ -8,7 +8,7 @@ namespace NthUnitTesting
         {
             Console.WriteLine("Welcome to Nth Unit testing problems");
 
-            Console.WriteLine( "Menu\n1.Vending Machine\n2.Day of week\n3.Temperature Conversion\n4.Exit");
+            Console.WriteLine( "Menu\n1.Vending Machine\n2.Day of week\n3.Temperature Conversion\n4.Monthly Payment\n5.Exit");
 
             Console.WriteLine("Enter The option");
 
@@ -24,6 +24,9 @@ namespace NthUnitTesting
                     TemperatureConversion.ReadInput();
                     break;
                 case 4:
+                    MonthlyPayment.ReadInput();
+                    break;
+                case 5:
                     Console.WriteLine("Exited");
                     break;
                 default:
