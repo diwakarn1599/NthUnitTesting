@@ -8,7 +8,7 @@ namespace NthUnitTesting
         {
             Console.WriteLine("Welcome to Nth Unit testing problems");
 
-            Console.WriteLine( "Menu\n1.Vending Machine\n2.Day of week\n3.Temperature Conversion\n4.Monthly Payment\n5.Newton Square Root\n6.Exit");
+            Console.WriteLine( "Menu\n1.Vending Machine\n2.Day of week\n3.Temperature Conversion\n4.Monthly Payment\n5.Newton Square Root\n6.Decimal To Binary\n7.Exit");
 
             Console.WriteLine("Enter The option");
 
@@ -30,6 +30,9 @@ namespace NthUnitTesting
                     NewtonSquareRoot.ReadInput();
                     break;
                 case 6:
+                    DecimalToBinary.ReadInput();
+                    break;
+                case 7:
                     Console.WriteLine("Exited");
                     break;
                 default:
